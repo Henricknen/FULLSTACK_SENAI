@@ -1,0 +1,9 @@
+h1 {
+    font-family: 30px "Arial";
+    font-size: 50px;
+}
+p {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
