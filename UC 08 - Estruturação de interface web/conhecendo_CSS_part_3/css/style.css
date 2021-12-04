@@ -1,0 +1,57 @@
+
+h1 {
+    font-family: "Arial";
+    font-size: 50px;
+}
+
+p {
+    font-family: "Verdana";
+    font-size: 20px;                           /* Elementos*/
+    color: rgba(0, 50, 50, 0.5);
+}
+
+img {
+    height: 100px;
+    width: 300px;
+}
+
+.azul {
+    color: blue;
+}
+                                                 /* classes */
+.vermelho {
+    color: red;
+}
+
+#titulo_html {
+    font-size: 50px;
+    color: rgb(12, 68, 250);
+}                                                 /* id */
+
+#titulo_css {
+    font-size: 50px;
+    color: rgb(21, 247, 21);
+}
+
+/* combinadores */
+
+div p {
+    background-color: #b4ec19;
+    text-align: center;
+}
+
+.secao_css p {
+    background-color: #222fff;
+    text-align: center;
+}
+
+a {
+    text-align: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: inline;
+    color: white;
+    background: black;
+}
