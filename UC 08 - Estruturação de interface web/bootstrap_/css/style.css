@@ -1,0 +1,15 @@
+.fundo-nav {
+    background-color: #000000;
+}
+
+.img-carrosel {
+    height:550px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    height: 80px;
+    text-align: center;
+}
