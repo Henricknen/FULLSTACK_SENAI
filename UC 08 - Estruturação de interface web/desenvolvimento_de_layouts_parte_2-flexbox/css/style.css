@@ -1,0 +1,71 @@
+/*Menu*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    width: 1080px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    background: #f07;
+}
+
+header nav {
+    display: flex;
+}
+
+header img {
+    height: 75px;
+    width: 250px;
+}
+
+header li {
+    list-style: none;
+    color: black;
+}
+
+header a {
+    text-decoration: none;
+    padding: 30px 10px;
+    color: black;
+}
+
+header a:hover {
+    background: black;
+    color: white;
+}
+
+
+/*Container*/
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*Alinhas elementos*/
+    justify-content: space-between;
+    align-items: center;
+
+    height: 500px;
+    background-color: #ccc;
+
+}
+
+section div {
+    background-color: rgb(103, 175, 243);
+   text-align: center;
+   margin: 0 5px;
+    flex: 1;
+
+}
+
+section .item1 {
+    flex: 2;
+}
+
+
+
+
