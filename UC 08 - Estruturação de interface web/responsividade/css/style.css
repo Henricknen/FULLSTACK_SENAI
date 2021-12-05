@@ -1,0 +1,56 @@
+h1 {
+    font-family: "Arial";
+    font-size: 50px;
+}
+
+p {
+    font-family: "Verdana";
+    font-size: 20px;             
+    color: rgba(0, 50, 50, 0.5);
+}
+
+img {
+    height: 100px;
+    width: 300px;
+}
+
+p::first-letter {
+    font-size: 300%;
+    color: #15d556;
+}
+
+a [target ~="_blank"] {
+    color: red;
+}
+
+.teste {
+    background-color: red;
+    text-align: center;
+
+    padding: 50px;
+    margin: 50px 50px 250px 50px;
+    
+    padding: 50px;
+   margin: 50px 50px 50px 50px;
+        /* top right bottom left */
+
+    border-bottom: solid #000;
+    border-width: 15px;
+
+    border-radius: 20px 0px 20px 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    /*tablet*/
+    body {
+        background-color: rgba(0, 255, 255, 1);
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    /*smartphones*/
+    body {
+        background-color: rgba(255, 255, 0, 1);
+    }
+}
+
