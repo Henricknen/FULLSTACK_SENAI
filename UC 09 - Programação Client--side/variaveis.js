@@ -28,4 +28,4 @@ console.log(nomeCompleto);
 
 console.log('Me chamo ' + nome + ' e tenho ' + idade + ' anos!');
 
-console.log(`Me chamo ${nome} e tenho ${idade} anos!!`);     //interpolação de variaveis
+console.log( `Me chamo ${nome} e tenho ${idade} anos!!`);     //interpolação de variaveis"
