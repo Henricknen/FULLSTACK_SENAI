@@ -1,3 +1,4 @@
+                            // comando_de_seleção
 var tipoUsuario = "qualquer cargo";
 
 switch(tipoUsuario) {
